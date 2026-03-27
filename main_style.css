@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", system-ui;
+}
+
+p {
+  font-family: "Montserrat", system-ui;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+a {
+  text-decoration: none;
+  color: #2a70d9;
+}
+
+/* GLOBAL */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  font-family: "Montserrat", system-ui;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #192734;
+}
+
+.btn {
+  font-family: "Montserrat", system-ui;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 15px 30px;
+  background-color: #192734;
+  color: #fff;
+}
+
+.light-text {
+  font-weight: 400;
+}
+
+/* HERO_SECTION */
+
+.hero-sec {
+  width: 100%;
+  height: 70vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/hero_bg.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-wrap {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.hero-sub-wrap {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.hero-btn {
+  background-color: #32cd32;
+  font-size: 18px;
+}
+
+/* BTN_LINKS */
+
+.logo {
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 30px auto;
+}
+
+.btn-link-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-link-p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-link-wrap {
+  max-width: 920px;
+  margin: 10px auto 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.btn-links {
+  font-family: "Montserrat", system-ui;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #333;
+  cursor: pointer;
+  padding: 14px 28px;
+  background: none;
+  border-radius: 3px;
+}
+
+/* BTN_LINKS_COLOR */
+
+.room {
+  border: 2px solid #091ad8;
+  color: #091ad8;
+}
+
+.roommate {
+  border: 2px solid #9cce06;
+  color: #9cce06;
+}
+
+.house {
+  border: 2px solid #2a70d9;
+  color: #2a70d9;
+}
+
+.apartment {
+  border: 2px solid #d92a80;
+  color: #d92a80;
+}
+
+.studio {
+  border: 2px solid #17c4bf;
+  color: #17c4bf;
+}
+
+.sublease {
+  border: 2px solid #3a5a78;
+  color: #3a5a78;
+}
+
+.basement {
+  border: 2px solid #d31215;
+  color: #d31215;
+}
+
+.flat {
+  border: 2px solid #0b964f;
+  color: #0b964f;
+}
+
+.private-room {
+  border: 2px solid #d9622a;
+  color: #d9622a;
+}
+
+.trailer {
+  border: 2px solid #912ad9;
+  color: #912ad9;
+}
+
+/* APP SECTION */
+
+.app-sec {
+  background: url(img/app_bg.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-sec-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.app-title-wrap {
+  max-width: 50%;
+}
+
+.app-title {
+  margin-bottom: 15px;
+}
+
+.app-subtitle {
+  font-weight: 600;
+  margin: 15px 0;
+  color: #192734;
+}
+
+.app-img-btn {
+  max-width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-img-wrap {
+  max-width: 60%;
+}
+
+.app-img {
+  max-width: 90%;
+}
+
+.app-btn {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.app-g {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.app-a {
+  display: block;
+  max-width: 100%;
+  margin-top: 5px;
+}
+
+/* DISCOVER SECTION */
+
+.discover-sec {
+  border: 1px solid #dbdbdb;
+  margin: 70px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-room-wrap {
+  max-width: 40%;
+}
+
+.search-room {
+  max-width: 100%;
+  padding: 15px;
+}
+
+.discover-content {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  max-width: 60%;
+  padding: 10px;
+}
+
+/* FEATURED SECTIOM */
+
+.featured-sec {
+  margin-bottom: 60px;
+}
+
+.featured-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.featured-subtitle {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.featured-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-grid {
+  max-width: 31%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+.f-grid-title {
+  font-size: 20px;
+}
+
+.f-grid-img {
+  max-width: 100%;
+}
+
+/* FOOTER SECTION */
+
+.footer-sec {
+  background-color: #192734;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.roomster-logo {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-p {
+  max-width: 800px;
+  color: #dbdbdb;
+  margin: 0 auto 20px auto;
+}
+
+.footer-p-country {
+  font-size: 13px;
+  color: #dbdbdb;
+  margin-bottom: 30px;
+}
+
+.footer-btn {
+  background-color: #e14715;
+}
+
+/* MOBILE VERSION */
+
+@media (max-width: 768px) {
+  .hero-btn {
+    width: 100%;
+  }
+
+  .btn-link-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-links {
+    width: 100%;
+  }
+
+  .app-sec-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-title-wrap {
+    max-width: 100%;
+  }
+
+  .app-img-btn {
+    max-width: 100%;
+  }
+
+  .discover-sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-room-wrap {
+    max-width: 100%;
+  }
+
+  .discover-content {
+    max-width: 100%;
+  }
+
+  .discover-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discover-btn {
+    width: 100%;
+  }
+
+  .featured-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-grid {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .f-grid-btn {
+    width: 100%;
+  }
+
+  .footer-btn {
+    width: 100%;
+  }
+}
